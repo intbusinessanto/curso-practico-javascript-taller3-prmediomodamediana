@@ -39,7 +39,7 @@ const salariosCol - colombia.map(
     }
 );
 
-comst salariosColSorted = salariosCol.sort(
+const salariosColSorted = salariosCol.sort(
     function(salaryA, salaryB){
         return salaryA - salaryB;
     }
@@ -61,3 +61,4 @@ console.log({
     medianaGeneralCol,
     medianaTop10Col,
 });
+
